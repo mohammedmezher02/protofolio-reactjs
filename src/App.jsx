@@ -6,6 +6,7 @@ import "./App.css"
 import { Home } from './Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar1 from './Navbar1'
+import Projects from './Projects'
 
 
 
@@ -31,7 +32,7 @@ const App = () => {
   <Navbar1/>
    <Routes>
    <Route path='/' element={<Home/>}></Route>
-
+   <Route path='/Project' element={<Projects/>}></Route>
    </Routes>
     </>
 

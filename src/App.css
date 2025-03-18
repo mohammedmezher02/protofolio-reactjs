@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* cursor: none; */
+   /* cursor: none;  */
   
 }
 
@@ -216,6 +216,7 @@ body {
 /* third section  */
 .homesec3 {
   background-color: #070707;
+  
 }
 
 .homesec3 .sectext {
